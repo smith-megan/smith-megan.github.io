@@ -28,6 +28,15 @@ nav{
   background-size: cover;
 
 }
+.nav-item{
+  transition-duration: 30s;
+}
+.nav-item:hover{
+  border-bottom: 2px solid white
+}
+.nav-item:hover{
+  border-bottom:2px solid white;
+}
 .name{
   font-size: 8rem;
   line-height: 2rem;
@@ -60,4 +69,63 @@ nav{
 }
 .about-me{
   font-size: 2.5rem
+}
+.about-div{
+  display:grid;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 3%;
+}
+.about-image1{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-image: url(./images/creative.jpg)
+}
+.about-image2{
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-image: url(./images/trail.jpg)
+}
+.about-image3{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-image: url(./images/fire.jpg);
+}
+#Skills {
+  display: flex;
+  flex-direction: row;
+}
+.github, .js, .css, .html, .post, .node{
+  background-image: url(/images/git.png);
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.js {
+  background-image: url(/images/js.png)
+}
+
+.css {
+  background-image: url(/images/css.png);
+}
+
+.html {
+  background-image: url(/images/html.png);
+}
+.post {
+  background-image: url(/images/post.png);
+}
+.node {
+  background-image: url(/images/node.png);
 }
